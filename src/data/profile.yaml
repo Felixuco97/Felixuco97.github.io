@@ -1,11 +1,11 @@
-- id: elena
-  name: Elena Navarro
-  role: Software Engineer & Creative Technologist
+- id: felix
+  name: Félix López Laria
+  role: Computer Science student & future particular teacher
   tagline: Building clean, accessible digital experiences with curiosity and craft.
-  location: Madrid, Spain
-  email: elena@example.dev
-  github: https://github.com/elenanavarro
-  linkedin: https://linkedin.com/in/elenanavarro
+  location: Aranjuez, Madrid, Spain
+  email: flopez200113@gmail.com
+  github: https://github.com/Felixuco97
+  linkedin: https://linkedin.com/in/felix-lopez-laria-9342a724b
   avatar: /avatar-placeholder.svg
   bio:
     - "I'm a software engineer with a passion for the intersection of design and technology. I love crafting interfaces that feel intuitive and tools that make developers' lives easier."
