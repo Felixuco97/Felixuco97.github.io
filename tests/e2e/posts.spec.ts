@@ -14,7 +14,7 @@ const frontMatter = yaml.load(firstPostContent.split('---')[1]);
 test.describe('Posts', () => {
   test('lists all posts', async ({ page }) => {
     await page.goto('/posts');
-    await expect(page).toHaveTitle(/Posts/);
+    await expect(page).toHaveTitle(/Publicaciones/);
 
     // Verify the first post title is visible
     const postTitle = page.locator('h3', { hasText: (frontMatter as any).title });
