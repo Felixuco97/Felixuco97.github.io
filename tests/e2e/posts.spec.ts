@@ -5,11 +5,11 @@ import yaml from 'js-yaml';
 
 // Read first post metadata from markdown frontmatter
 const postsDir = path.resolve('src/data/posts');
-const firstPostFile = fs
-  .readdirSync(postsDir)
-  .find((f) => f.endsWith('.md') || f.endsWith('.mdx'))!;
-const firstPostContent = fs.readFileSync(path.join(postsDir, firstPostFile), 'utf8');
-const frontMatter = yaml.load(firstPostContent.split('---')[1]);
+//const firstPostFile = fs
+//  .readdirSync(postsDir)
+//  .find((f) => f.endsWith('.md') || f.endsWith('.mdx'))!;
+//const firstPostContent = fs.readFileSync(path.join(postsDir, firstPostFile), 'utf8');
+//const frontMatter = yaml.load(firstPostContent.split('---')[1]);
 
 test.describe('Posts', () => {
   test('lists all posts', async ({ page }) => {
