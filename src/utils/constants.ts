@@ -5,9 +5,9 @@
  *     These are used by the Navbar, Footer, SEO meta tags, etc.
  */
 
-export const SITE_TITLE = 'Félix López Laria — Portfolio';
+export const SITE_TITLE = 'Félix López Laria — Portafolios';
 export const SITE_DESCRIPTION =
-  'Software Engineer & Creative Technologist. Building clean, accessible web experiences.';
+  'Estudiante de Ingeniería Informática en progreso...';
 
 /** Navigation links shown in the Navbar */
 export const NAV_LINKS = [
