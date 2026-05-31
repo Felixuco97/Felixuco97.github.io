@@ -1,23 +1,25 @@
 - id: felix
   name: Félix López Laria
-  role: Computer Science student & future particular teacher
-  tagline: Building clean, accessible digital experiences with curiosity and craft.
-  location: Aranjuez, Madrid, Spain
+  role: Estudiante de Ingeniería Informática & aspirante a profesor particular
+  tagline: Estudiante en progreso...
+  location: Aranjuez, Madrid, España
   email: flopez200113@gmail.com
   github: https://github.com/Felixuco97
   linkedin: https://linkedin.com/in/felix-lopez-laria-9342a724b
-  avatar: /avatar-placeholder.svg
+  avatar: /felix.png
   bio:
-    - "I'm a software engineer with a passion for the intersection of design and technology. I love crafting interfaces that feel intuitive and tools that make developers' lives easier."
-    - "Currently focused on frontend architecture, design systems, and creative coding. When I'm not writing code, you'll find me mentoring at local tech communities, experimenting with generative art, or hiking in the Sierra de Guadarrama."
+    - "Actualmente, estoy estudiando el 4º curso del grado de Ingeniería Informática en la Universidad Autónoma de Madrid ."
+    - "Me motiva el interés por aplicar mis conocimientos adquiridos en la carrera en el mundo laboral para el bienestar y la evolución humana mediante el enfoque tecnológico y educativo."
   skills:
-    - TypeScript
-    - React
-    - Astro
-    - Node.js
-    - Python
-    - Figma
-    - Accessibility
-    - Design Systems
-    - Open Source
-    - Technical Writing
+    - Matemáticas (ESO y Bachillerato)
+    - Control de versiones (Git, Github)
+    - Linux CLI (Bash Script)
+    - Gestión de archivos (Goodnotes, Linux FS)
+    - Bases de datos (DBeaver, SQLite, PostgreSQL, NeonDB)
+    - IDE's' (VSCode)
+    - Cloud (Google Drive, One Drive, Render)
+    - Ofimática con Google (Docs, Sheets, Slides)
+    - Web (HTML, CSS, JS)
+    - Software (C, Java, Python)
+    - Texto (LaTeX)
+    - Consultas (SQL)

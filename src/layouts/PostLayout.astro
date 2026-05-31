@@ -28,9 +28,9 @@ const { title, description, pubDate, updatedDate, tags = [], cover } = Astro.pro
     <div class="post__container">
       {/* ─── Breadcrumb ─── */}
       <nav class="post__breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
+        <a href="/">Inicio</a>
         <span aria-hidden="true">/</span>
-        <a href="/posts">Posts</a>
+        <a href="/posts">Publicaciones</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">{title}</span>
       </nav>
@@ -43,7 +43,7 @@ const { title, description, pubDate, updatedDate, tags = [], cover } = Astro.pro
           </time>
           {
             updatedDate && (
-              <span class="post__updated">(Updated: {formatDate(updatedDate, 'full')})</span>
+              <span class="post__updated">(Actualizado: {formatDate(updatedDate, 'full')})</span>
             )
           }
         </div>
@@ -69,7 +69,7 @@ const { title, description, pubDate, updatedDate, tags = [], cover } = Astro.pro
 
       {/* ─── Back link ─── */}
       <footer class="post__footer">
-        <a href="/posts" class="post__back"> ← Back to all posts </a>
+        <a href="/posts" class="post__back"> ← Volver a todas las publicaciones </a>
       </footer>
     </div>
   </article>
