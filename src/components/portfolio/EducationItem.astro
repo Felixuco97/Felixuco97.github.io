@@ -15,7 +15,7 @@ interface Props {
 }
 
 const { institution, degree, field, startDate, endDate, description, details } = Astro.props;
-const dateRange = formatDateRange(startDate, endDate);
+const dateRange = formatDateRange(startDate, endDate, 'long');
 ---
 
 <article class="edu-item">

@@ -15,7 +15,7 @@ interface Props {
 }
 
 const { role, company, url, startDate, endDate, description, highlights } = Astro.props;
-const dateRange = formatDateRange(startDate, endDate);
+const dateRange = formatDateRange(startDate, endDate, 'long');
 ---
 
 <article class="exp-item">

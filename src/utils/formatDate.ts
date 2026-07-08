@@ -13,7 +13,7 @@
 export function formatDate(
   date: Date,
   style: 'short' | 'long' | 'full' = 'short',
-  locale: string = 'en-US',
+  locale: string = 'es-ES',
 ): string {
   if (style === 'full') {
     return date.toLocaleDateString(locale, {
