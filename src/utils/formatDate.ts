@@ -40,8 +40,9 @@ export function formatDateRange(
   start: Date,
   end?: Date,
   style: 'short' | 'long' = 'short',
+  locale: string = 'en-US',
 ): string {
-  const startStr = formatDate(start, style);
-  const endStr = end ? formatDate(end, style) : 'Present';
+  const startStr = formatDate(start, style, locale);
+  const endStr = end ? formatDate(end, style, locale) : 'Presente';
   return `${startStr} — ${endStr}`;
 }

@@ -42,15 +42,15 @@ describe('formatDateRange', () => {
     expect(result).toContain('—');
   });
 
-  it('shows "Present" when end date is omitted', () => {
+  it('shows "Presente" when end date is omitted', () => {
     const start = new Date('2024-06-01');
     const result = formatDateRange(start);
-    expect(result).toContain('Present');
+    expect(result).toContain('Presente');
   });
 
-  it('shows "Present" when end date is undefined', () => {
+  it('shows "Presente" when end date is undefined', () => {
     const start = new Date('2024-06-01');
     const result = formatDateRange(start, undefined);
-    expect(result).toContain('Present');
+    expect(result).toContain('Presente');
   });
 });

@@ -15,7 +15,7 @@ interface Props {
 }
 
 const { organization, role, url, startDate, endDate, description, contributions } = Astro.props;
-const dateRange = formatDateRange(startDate, endDate, 'long');
+const dateRange = formatDateRange(startDate, endDate, 'long', 'es-ES');
 ---
 
 <article class="vol-item">
