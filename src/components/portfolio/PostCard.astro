@@ -20,7 +20,7 @@ const { title, description, pubDate, tags = [], slug } = Astro.props;
 <Card href={`/posts/${slug}`} hoverable class="post-card">
   <article class="post-card__content">
     <time class="post-card__date" datetime={pubDate.toISOString()}>
-      {formatDate(pubDate, 'long')}
+      {formatDate(pubDate, 'long', 'es-ES')}
     </time>
 
     <h3 class="post-card__title">{title}</h3>

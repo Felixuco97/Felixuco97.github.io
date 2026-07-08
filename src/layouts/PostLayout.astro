@@ -39,11 +39,11 @@ const { title, description, pubDate, updatedDate, tags = [], cover } = Astro.pro
       <header class="post__header">
         <div class="post__meta">
           <time datetime={pubDate.toISOString()}>
-            {formatDate(pubDate, 'full')}
+            {formatDate(pubDate, 'full', 'es-ES')}
           </time>
           {
             updatedDate && (
-              <span class="post__updated">(Actualizado: {formatDate(updatedDate, 'full')})</span>
+              <span class="post__updated">(Actualizado: {formatDate(updatedDate, 'full', 'es-ES')})</span>
             )
           }
         </div>

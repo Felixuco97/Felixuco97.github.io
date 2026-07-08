@@ -13,7 +13,7 @@
 export function formatDate(
   date: Date,
   style: 'short' | 'long' | 'full' = 'short',
-  locale: string = 'es-ES',
+  locale: string = 'en-US',
 ): string {
   if (style === 'full') {
     return date.toLocaleDateString(locale, {
@@ -41,7 +41,7 @@ export function formatDateRange(
   end?: Date,
   style: 'short' | 'long' = 'short',
 ): string {
-  const startStr = formatDate(start, style);
-  const endStr = end ? formatDate(end, style) : 'Present';
+  const startStr = formatDate(start, style, 'es-ES');
+  const endStr = end ? formatDate(end, style, 'es-ES') : 'Present';
   return `${startStr} — ${endStr}`;
 }
